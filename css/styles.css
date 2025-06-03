@@ -575,11 +575,15 @@ h2 {
   background-size: cover;
   background-attachment: fixed;
   height: 60vh;
-  margin: 2vh 0;;
+  margin: 2vh 0;
   background-position: center ;
 }
 
-
+@media (max-width: 768px) {
+  .backgroundpicture {
+    background-attachment: scroll;
+  }
+}
 
 
 
